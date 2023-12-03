@@ -25,3 +25,51 @@
   font-style: italic;
   text-align: center;
 }
+.about {
+  color: red;
+}
+
+@media (320px <= width <= 480px) {
+  .companyname {
+    font-size: 3rem;
+  }
+  .street {
+    font-size: 2rem;
+  }
+  .state {
+    font-size: 1rem;
+  }
+}
+@media (481px <= width <= 768px) {
+  .companyname {
+    font-size: 3rem;
+  }
+  .street {
+    font-size: 2rem;
+  }
+  .state {
+    font-size: 1rem;
+  }
+}
+@media (769px <= width <= 1024px) {
+  .companyname {
+    font-size: 4rem;
+  }
+  .street {
+    font-size: 3rem;
+  }
+  .state {
+    font-size: 2rem;
+  }
+}
+@media (1024 <= width <= 1200px) {
+  .companyname {
+    font-size: 6rem;
+  }
+  .street {
+    font-size: 4rem;
+  }
+  .state {
+    font-size: 2rem;
+  }
+}

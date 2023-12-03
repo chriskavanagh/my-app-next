@@ -25,6 +25,8 @@
   font-style: italic;
   text-align: center;
 }
+
+/* --------------------About Page---------------------- */
 .about {
   color: red;
 }
@@ -47,6 +49,7 @@
   .street {
     font-size: 2rem;
   }
+
   .state {
     font-size: 1rem;
   }
@@ -62,7 +65,7 @@
     font-size: 2rem;
   }
 }
-@media (1024 <= width <= 1200px) {
+@media (1024 <= width <= 1600px) {
   .companyname {
     font-size: 6rem;
   }

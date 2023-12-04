@@ -1,4 +1,5 @@
-import Image from "next/image";
+//import Link from "/next/link";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         <h1 className={styles.companyname}>Robert's Towing Service</h1>
         <h3 className={styles.street}>2385 Coopers Cove rd</h3>
         <h3 className={styles.state}>Hardy, VA 24101</h3>
+        <Link href="/about">About</Link>
       </section>
     </main>
   );

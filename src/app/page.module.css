@@ -25,6 +25,13 @@
   font-style: italic;
   text-align: center;
 }
+.linking {
+  color: red;
+  font-size: 1.5rem;
+}
+.linking:hover {
+  text-decoration: underline;
+}
 
 /* --------------------About Page---------------------- */
 .about {

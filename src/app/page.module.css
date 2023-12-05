@@ -26,15 +26,54 @@
   text-align: center;
 }
 .linking {
-  color: red;
+  color: blue;
   font-size: 1.5rem;
 }
 .linking:hover {
   text-decoration: underline;
+  color: rgb(255, 0, 234);
+}
+.aboutlink {
+  color: blue;
+}
+.aboutlink:hover {
+  text-decoration: underline;
+  color: rgb(255, 0, 234);
 }
 
 /* --------------------About Page---------------------- */
 .about {
+  color: red;
+}
+
+/* --------------------topnav Page---------------------- */
+.navbar {
+  height: 4rem;
+  border-bottom: 1px rgb(128, 94, 0) solid;
+}
+.react-icons {
+  vertical-align: middle;
+  margin-left: 2rem;
+}
+.logo {
+  margin-left: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.mylist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 8px 0 8px;
+}
+.navitems {
+  padding: 0 12px 0 12px;
   color: red;
 }
 

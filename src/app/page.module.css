@@ -49,11 +49,12 @@
 /* --------------------topnav Page---------------------- */
 .navbar {
   height: 4rem;
-  border-bottom: 1px rgb(128, 94, 0) solid;
+  border-bottom: 0.2px rgb(61, 61, 57) solid;
+  background-color: rgb(240, 240, 240);
 }
 .react-icons {
   vertical-align: middle;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 .logo {
   margin-left: 2rem;
@@ -74,7 +75,8 @@
 }
 .navitems {
   padding: 0 12px 0 12px;
-  color: red;
+  color: chocolate;
+  font-size: 1.2rem;
 }
 
 @media (320px <= width <= 480px) {

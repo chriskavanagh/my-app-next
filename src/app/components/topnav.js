@@ -7,7 +7,7 @@ export default function Navbar() {
     <section className={styles.navbar}>
       <nav className={styles.container}>
         <div className={styles.logo}>
-          <GiTowTruck color="red" size="4em" />
+          <GiTowTruck color="gold" size="4em" />
         </div>
         <div className="nav-elements">
           <ul className={styles.mylist}>
